@@ -27,6 +27,7 @@ defmodule ReminderBot.MixProject do
       {:hackney, "~> 1.17"},
       {:jason, "~> 1.2"},
       {:ecto_sql, "~> 3.5"},
+      {:postgrex, "~> 0.15"},
       {:credo, "~> 1.2", only: [:dev, :test], runtime: false},
       {:logger_file_backend, "0.0.11"}
     ]

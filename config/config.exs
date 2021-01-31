@@ -2,14 +2,14 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-config :meme_cache_bot, MemeCacheBot.Repo,
-  database: "meme_cache_bot_repo",
+config :reminder_bot, ReminderBot.Repo,
+  database: "reminder_bot",
   username: "postgres",
   password: "postgres",
   hostname: "localhost"
 
-config :meme_cache_bot,
-  ecto_repos: [MemeCacheBot.Repo]
+config :reminder_bot,
+  ecto_repos: [ReminderBot.Repo]
 
 config :ex_gram,
   token: {:system, "BOT_TOKEN"}
